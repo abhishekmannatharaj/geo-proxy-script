@@ -9,8 +9,6 @@ A Python script that retrieves a live public proxy from the ProxyLister API, use
 3. Extracts the proxy's location (country and city).
 4. Builds a proxy URL and routes a request through it using `requests`.
 5. Sends a test request to httpbin to confirm the proxy works.
-6. Fetches the list of countries available in the ProxyLister pool.
-7. Fetches proxy statistics for the country of the proxy used.
 
 ## Technologies Used
 
@@ -22,7 +20,6 @@ A Python script that retrieves a live public proxy from the ProxyLister API, use
 ## Requirements
 
 - Python 3.x
-- Internet connection
 
 ## Installation
 
