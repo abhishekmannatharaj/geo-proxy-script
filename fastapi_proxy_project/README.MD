@@ -1,0 +1,1 @@
+TO RUN UNICORN - uvicorn main:app --reload
